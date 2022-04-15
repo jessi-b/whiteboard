@@ -36,10 +36,10 @@ removeDupe = function(arr) {
 // if str[i]=str[i+] then remove
 
 let arr = [7, 9, "hi", 12, "hi", 7, 53];
-let sortedArr = arr.sort();
+let sortedArr = arr.sort(); // 12, 53, 7, 7,  9, 'hi', 'hi'
+
 for (let i = 0; i <= arr.length-1; i++ ) {
   if (sortedArr[i]=sortedArr[i+1]) {
     
   }
-  
 }
