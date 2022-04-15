@@ -17,13 +17,16 @@
 
 // recursive solution
 toUrl = function(str) {
-  if (str.length() == 0) {  // termination case
+  // termination case
+  if (str.length === 0) {  // 
     return "invalid input";
-  } else if (str.length() == 1)  // base case
+  // base case
+  } else if (str.length() === 1)  
   {
     return str;
-  } else if (str.charAt(i) == " ") {  // recursion
-    str = str + "%20"
+  // recursion
+  } else if (str.charAt[i] == " ") { 
+    str.charAt[i] = "%20"
   }
 };
 

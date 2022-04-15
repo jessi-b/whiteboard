@@ -11,4 +11,7 @@
 // push count of instances if > 1
 
 let string = "aaabccdddda";
+let arr = str.split("");
+let map = arr.map( ) // [0]a, [1],
+arr.map()
 let count = 0;
