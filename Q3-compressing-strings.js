@@ -9,3 +9,6 @@
 // loop to find repeated char
 // compress char
 // push count of instances if > 1
+
+let string = "aaabccdddda";
+let count = 0;
