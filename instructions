@@ -1,0 +1,25 @@
+This is a mock technical interview, so the goal is to practice as if you were interviewing for a real job. For both the interviewers (who are giving feedback) and interviewee (who is whiteboarding), this means that you should be formal in your presentation:
+
+Check to make sure folks can hear you, see your code.
+Speak clearly, doing your best not to trail off in your speech or mumble.
+Make eye contact.
+Be polite and encouraging.
+If the interviewee is stuck and you (the interviewer) know how to get unstuck:
+Give the interviewee space to figure out next steps before offering help.
+Ask the interviewee if they want help before giving help.
+If you are doing this remotely, have your video turned on. If you are having a technical issue that makes it so you can't share your video, let your group members know.
+
+At the end of the group interview session, you will be expected to submit your whiteboard solution. You can submit either a txt file or if you prefer you may submit a picture of a whiteboard or written solution. The purpose of the txt file is to write and submit an answer that includes no auto-fill from VS Code.
+
+Remember, this is an important time for you as the interviewer to think critically and scrutinize anything that an interviewer at a potential workplace would. If you are struggling to come up with examples of where an interview can improve, consider these:
+
+Error handling
+Handling edge cases
+Testing all cases based on the possible inputs/outputs
+If time remains, engaging in more discussion about the prompt. For example, what a more efficient solution might look like?
+Feedback on presentation:
+Eye contact
+Clarity in explanations about code and decision making.
+Whether assumptions were made that could have been clarified with questions
+Code style (comments, variable naming)
+Use of technical terminology
