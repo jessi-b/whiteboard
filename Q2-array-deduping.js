@@ -1,7 +1,7 @@
 // Write an algorithm that removes duplicates from an array. Do not use a function like filter() to solve this. Once you have solved the problem, demonstrate how it can be solved with filter(). Solve the problem with and without recursion.
 
 // Example
-// Input: [7, 9, "hi", 12, "hi" 7, 53]
+// Input: [7, 9, "hi", 12, "hi", 7, 53]
 // Output: [7, 9, "hi", 12, 53]
 // ----------------------------------------------------
 
@@ -30,3 +30,16 @@ removeDupe = function(arr) {
     return removeDupe();
   }
 };
+
+// alt solution
+// sort
+// if str[i]=str[i+] then remove
+
+let arr = [7, 9, "hi", 12, "hi", 7, 53];
+let sortedArr = arr.sort();
+for (let i = 0; i <= arr.length-1; i++ ) {
+  if (sortedArr[i]=sortedArr[i+1]) {
+    
+  }
+  
+}

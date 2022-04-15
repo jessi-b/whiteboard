@@ -13,8 +13,6 @@
 // v1 w recursion
 // v2 w/o recursion
 
-
-
 // recursive solution
 toUrl = function(str) {
   // termination case
@@ -31,11 +29,14 @@ toUrl = function(str) {
 };
 
 // alt solution
-
-// trim removes spaces
 // string.split() to array
 // array.join with  %20 return as string
 
 let str = "Jasmine Ann Jones" //  ("Jasmine Ann Jones")
 let arr = str.split(" "); // {"Jasmine", "Ann", "Jones"}
 let url = arr.join("%20")  // "Jasmine%20Ann%20Jones"
+// methods joined
+toUrl = function(str) {
+  return str.split(" ").join("%20")
+}
+
