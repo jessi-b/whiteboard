@@ -15,3 +15,18 @@
 // v4 w/o recursion
 
 // use array.map() to compare elements against eachother
+
+// recursive solution
+removeDupe = function(arr) {
+  // termination case
+  if (arr.length === 0) {  // 
+    return "invalid input";
+  // base case
+  } else if (str.length() === 1)  
+  {
+    return str;
+  // recursion
+  } else if (str.charAt[i] == " ") { 
+str.charAt[i] = "%20"
+  }
+};

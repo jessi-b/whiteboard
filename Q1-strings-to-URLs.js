@@ -21,12 +21,12 @@ toUrl = function(str) {
   if (str.length === 0) {  // 
     return "invalid input";
   // base case
-  } else if (str.length() === 1)  
-  {
+  } else if (str.length() === 1)  {
     return str;
   // recursion
   } else if (str.charAt[i] == " ") { 
     str.charAt[i] = "%20"
+    return toUrl
   }
 };
 
