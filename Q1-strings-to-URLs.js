@@ -13,10 +13,7 @@
 // v1 w recursion
 // v2 w/o recursion
 
-// trim removes spaces
-// string.split() to array
-// array.join with  %20 return as string
-// push with %20
+
 
 // recursive solution
 toUrl = function(str) {
@@ -31,10 +28,11 @@ toUrl = function(str) {
 };
 
 // alt solution
-let str = "Jasmine Ann Jones"
-let arr = str.split(" ");
-toUrl = function(str) {
-  for (int i=0; i<arr.length; i++) { 
-    type var = arr[i];
-    statements using var;
-  }
+
+// trim removes spaces
+// string.split() to array
+// array.join with  %20 return as string
+
+let str = "Jasmine Ann Jones" //  ("Jasmine Ann Jones")
+let arr = str.split(" "); // {"Jasmine", "Ann", "Jones"}
+let url = arr.join("%20")  // "Jasmine%20Ann%20Jones"
