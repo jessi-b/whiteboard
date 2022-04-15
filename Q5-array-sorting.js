@@ -11,3 +11,7 @@
 // Example
 // Input: [9, 2, 7, 12]
 // Output: [2, 7, 9, 12]
+// ----------------------------------------------------
+
+// given array, retrun array
+// array.map() to compare and reorder?

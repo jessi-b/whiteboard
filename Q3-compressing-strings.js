@@ -3,3 +3,9 @@
 // Example
 // Input: "aaabccdddda"
 // Output: "3ab2c4da"
+// ----------------------------------------------------
+
+// given string, return string
+// loop to find repeated char
+// compress char
+// push count of instances if > 1

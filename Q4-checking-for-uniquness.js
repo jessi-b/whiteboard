@@ -6,3 +6,7 @@
 
 // Input: "copyright"
 // Output: true
+// ----------------------------------------------------
+
+// given string, return bool
+// loop check for recurring char

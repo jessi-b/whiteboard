@@ -5,3 +5,15 @@
 // Example
 // Input: "Jasmine Ann Jones"
 // Output: "Jasmine%20Ann%20Jones"
+// ----------------------------------------------------
+
+// given string, return string
+// replace " " with "%20"
+// cannot use replace() method or regular expressions
+// v1 w recursion
+// v2 w/o recursion
+
+// trim removes spaces
+// string.split() to array
+// array.join with  %20 return as string
+// push with %20
