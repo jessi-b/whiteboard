@@ -10,3 +10,4 @@
 
 // given string, return bool
 // loop check for recurring char
+// string.includes()  -- returns bool

@@ -6,6 +6,7 @@
 // ----------------------------------------------------
 
 // given array, return array w/o dupes
+///// use .isArray() to check if array - string.split() if given string to return array
 // loop to find dupe
 // remove dupe
 // v1 w/o filter()

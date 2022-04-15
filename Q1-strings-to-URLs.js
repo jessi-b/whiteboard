@@ -17,3 +17,24 @@
 // string.split() to array
 // array.join with  %20 return as string
 // push with %20
+
+// recursive solution
+toUrl = function(str) {
+  if (str.length() == 0) {  // termination case
+    return "invalid input";
+  } else if (str.length() == 1)  // base case
+  {
+    return str;
+  } else if (str.charAt(i) == " ") {  // recursion
+    str = str + "%20"
+  }
+};
+
+// alt solution
+let str = "Jasmine Ann Jones"
+let arr = str.split(" ");
+toUrl = function(str) {
+  for (int i=0; i<arr.length; i++) { 
+    type var = arr[i];
+    statements using var;
+  }
