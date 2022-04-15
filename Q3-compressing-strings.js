@@ -10,8 +10,14 @@
 // compress char
 // push count of instances if > 1
 
-let string = "aaabccdddda";
-let arr = str.split("");
-let map = arr.map( ) // [0]a, [1],
-arr.map()
-let count = 0;
+let str = "aaabccdddda";
+let arr = str.split(""); // a, a, a, ..., a  2nd pass 
+let map = arr.map(function(arr) {
+  let count = 0 //  1
+  if (arr[i] == arr[i+1]) {  // a[0] = a[1]
+    count ++  //  +1  
+    arr[i].splice(i)  // a, a, b ...
+    return count // 1, a, a, b ...
+  } 
+  return arr [i]
+});

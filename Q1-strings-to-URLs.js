@@ -36,7 +36,6 @@ let str = "Jasmine Ann Jones" //  ("Jasmine Ann Jones")
 let arr = str.split(" "); // {"Jasmine", "Ann", "Jones"}
 let url = arr.join("%20")  // "Jasmine%20Ann%20Jones"
 // methods joined
-toUrl = function(str) {
+function toUrl(str) {
   return str.split(" ").join("%20")
 }
-

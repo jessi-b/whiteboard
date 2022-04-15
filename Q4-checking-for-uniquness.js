@@ -9,9 +9,20 @@
 // ----------------------------------------------------
 
 // given string, return bool
-// loop check for recurring char
+// canont use arr  (sort, every, )
+// loop check for recurring char  map or forEach
 // string.includes()  -- returns bool
+// Q case sensiive?
+// Q consider " "
 
 let str = "hello";
-let arr = str.split("");
-for()
+function isUnique(str) {
+  map (let i = 0; i <= str.length; i++) {
+    
+  }
+}
+
+function isUnique(str) {
+
+  for (let i = 0; i <= str.length; i++)
+}
