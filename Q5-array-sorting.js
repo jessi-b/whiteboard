@@ -14,4 +14,9 @@
 // ----------------------------------------------------
 
 // given array, retrun array
-// array.map() to compare and reorder?
+
+let arr = [9, 2, 7, 12];
+let sortedArr = [];
+forEach (function(num) {
+  
+})

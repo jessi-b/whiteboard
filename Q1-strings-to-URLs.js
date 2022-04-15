@@ -18,7 +18,7 @@
 // recursive solution
 toUrl = function(str) {
   // termination case
-  if (str.length === 0) {  // 
+  if (str.length === 0) {  
     return "invalid input";
   // base case
   } else if (str.length() === 1)  {
@@ -26,7 +26,7 @@ toUrl = function(str) {
   // recursion
   } else if (str.charAt[i] == " ") { 
     str.charAt[i] = "%20"
-    return toUrl
+    return toUrl();
   }
 };
 

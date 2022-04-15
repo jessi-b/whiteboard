@@ -22,11 +22,11 @@ removeDupe = function(arr) {
   if (arr.length === 0) {  // 
     return "invalid input";
   // base case
-  } else if (str.length() === 1)  
-  {
+  } else if (condition) {
     return str;
   // recursion
-  } else if (str.charAt[i] == " ") { 
-str.charAt[i] = "%20"
+  } else if (conditon) { 
+    arr.charAt[i] = "%20"
+    return removeDupe();
   }
 };
