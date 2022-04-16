@@ -10,8 +10,19 @@
 // given string, return string
 // replace " " with "%20"
 // cannot use replace() method or regular expressions
-// v1 w recursion
-// v2 w/o recursion
+// v1 w/o recursion
+// string.split() to array
+// array.join with  %20 return as string
+// v2 w recursion
+
+// solution
+let str = "Jasmine Ann Jones" //  ("Jasmine Ann Jones")
+let arr = str.split(" "); // {"Jasmine", "Ann", "Jones"}
+let url = arr.join("%20")  // "Jasmine%20Ann%20Jones"
+// methods joined
+function toUrl(str) {
+  return str.split(" ").join("%20")
+}
 
 // recursive solution
 toUrl = function(str) {
@@ -28,15 +39,3 @@ toUrl = function(str) {
   }
 };
 
-// alt solution
-// string.split() to array
-// array.join with  %20 return as string
-
-let str = "Jasmine Ann Jones" //  ("Jasmine Ann Jones")
-let arr = str.split(" "); // {"Jasmine", "Ann", "Jones"}
-let url = arr.join("%20")  // "Jasmine%20Ann%20Jones"
-// methods joined
-
-function toUrl(str) {
-  return str.split(" ").join("%20")
-}
