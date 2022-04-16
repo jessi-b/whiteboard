@@ -19,41 +19,33 @@
 // assumes no empty strings ie " "
 
 // Q does it need to be retunred in the order it was given? assume no
-// 
 // sort
 // if str[i]=str[i+] then remove
 
 // let arr = [7, 9, "hi", 12, "hi", 7, 53];
-let sortedArr = arr.sort(); // 12, 53, 7, 7,  9, 'hi', 'hi'
+// let sortedArr = arr.sort(); // 12, 53, 7, 7,  9, 'hi', 'hi'
+// function removeDupe(arr) {
+//   for (let i = 0; i <= arr.length-1; i++ ) {
+//     if (sortedArr[i] == sortedArr[i+1]) {
+//       newArr.splice(sortedArr[i]);
+//     } else {
+//       newArr.push(sortedArr[i]);
+//     }
+//   return newArr;
+//   }
+// }
 
-for (let i = 0; i <= arr.length-1; i++ ) {
-  if (sortedArr[i]=sortedArr[i+1]) {
-    
-  }
-}
-
-let arr = [7, 9, "hi", 12, "hi", 7, 53];
-function removeDupe(arr) {
-  newArr = [];
-  arr.map(function removeDupe(element, i, newArr) {
-  if (element[i] != element[i]) {
-    newArr.push(elementi[i]);
-  }
-  return newArr;
-})
-}
+// let arr = [7, 9, "hi", 12, "hi", 7, 53];
+// function removeDupe(arr) {
+//   newArr = [];
+//   arr.map(function (element, i) {
+//     if (element[i] == element[i+1]) {
+//       arr(element[i]).splice;
+//     } 
+//     newArr(element[i]).push; {
+//       return newArr2
+//     }
+//   })
+// }
 
 // // recursive solution
-// removeDupe = function(arr) {
-//   // termination case
-//   if (arr.length === 0) {  // 
-//     return "invalid input";
-//   // base case
-//   } else if (condition) {
-//     return str;
-//   // recursion
-//   } else if (conditon) { 
-//     arr.charAt[i] = "%20"
-//     return removeDupe();
-//   }
-// };
