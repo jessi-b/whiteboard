@@ -6,10 +6,13 @@
 // ----------------------------------------------------
 
 // given string, return string
+// w/o reursion 
 // loop to find repeated char
 // compress char
-// push count of instances if > 1
+// push count of instances if = 1
+// w/ recursion
 
+// solution
 let str = "aaabccdddda";
 function compressStr(str) {  // "aaabccdddda"
   let count = 1;  //  r1 = 2, r2 = 3, r3 resets to 1
@@ -17,7 +20,7 @@ function compressStr(str) {  // "aaabccdddda"
   for (let i=0; i < str.length; i++) {
     if (str[i] == str[i+1]) {  // r1 a=a, r2 a=a, r3 a!= b, r4 b!=c
       count ++; // r1 +1, r2 +1
-    } else if ( str[i] !== str[i+1] && count <= 1) { // r3 doesnt meet cond., r4 b!=c & count=1 
+    } else if (str[i] !== str[i+1] && count <= 1) { // r3 doesnt meet cond., r4 b!=c & count=1 
       arr.push(str[i]); // "b" into array
     } else {
       arr.push(count + str[i]);  // "3a" into array
@@ -26,3 +29,5 @@ function compressStr(str) {  // "aaabccdddda"
   }
   return arr.join('')  //  3ab
 }
+
+// solution w/ recursion

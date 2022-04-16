@@ -27,7 +27,7 @@ function toUrl(str) {
 // recursive solution
 toUrl = function(str) {
   // termination case
-  if (str.length === 0) {  
+  if (str.length === 0) {  // !str == null ??
     return "invalid input";
   // base case
   } else if (str.length() === 1)  {
