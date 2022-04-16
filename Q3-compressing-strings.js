@@ -11,13 +11,18 @@
 // push count of instances if > 1
 
 let str = "aaabccdddda";
-let arr = str.split(""); // a, a, a, ..., a  2nd pass 
-let map = arr.map(function(arr) {
-  let count = 0 //  1
-  if (arr[i] == arr[i+1]) {  // a[0] = a[1]
-    count ++  //  +1  
-    arr[i].splice(i)  // a, a, b ...
-    return count // 1, a, a, b ...
-  } 
-  return arr [i]
-});
+function compressStr(str) {  // "aaabccdddda"
+  let count = 1;  //  r1 = 2, r2 = 3, r3 resets to 1
+  let arr = [];  // ["3a", b]
+  for (let i=0; i < str.length; i++) {
+    if (str[i] == str[i+1]) {  // r1 a=a, r2 a=a, r3 a!= b, r4 b!=c
+      count ++; // r1 +1, r2 +1
+    } else if ( str[i] !== str[i+1] && count <= 1) { // r3 doesnt meet cond., r4 b!=c & count=1 
+      arr.push(str[i]); // "b" into array
+    } else {
+      arr.push(count + str[i]);  // "3a" into array
+      count = 1
+    }
+  }
+  return arr.join('')  //  3ab
+}
