@@ -16,13 +16,13 @@
 // Q consider " "
 
 let str = "hello";
-function isUnique(str) {
-  map (let i = 0; i <= str.length; i++) {
-    
+
+cosnt string = str.map(function(char) {
+  for (let i=0; i=each.length-1; i++) {
+    return each.includes(each[i])
   }
-}
+})
 
-function isUnique(str) {
-
-  for (let i = 0; i <= str.length; i++)
+str.forEach(function(char)) {
+  return str.includes(char)
 }

@@ -27,8 +27,10 @@ let sortedArr = arr.sort(); // 12, 53, 7, 7,  9, 'hi', 'hi'
 function removeDupe(arr) {
   outPut = [];
   for (let i = 0; i <= arr.length-1; i++ ) {
-    if (sortedArr[i] == sortedArr[i+1]) {
-      outPut.push(sortedArr[i]);
+    if (arr[i] == arr[i+1]) {
+      outPut.pop(arr[i]);
+    } else {
+      outPut.push(arr[i])
     }
   return outPut;
   }
@@ -46,6 +48,15 @@ function removeDupe(arr) {
 //     }
 //   })
 // }
+
+const arr = [7, 9, "hi", 12, "hi", 7, 53];
+const removeDupe = arr.map(function(element) {
+  if (element == element+) {
+
+  }
+  return element * 2;
+});
+removeDupe;
 
 // // recursive solution
 const removeDupe = (arr) => {
