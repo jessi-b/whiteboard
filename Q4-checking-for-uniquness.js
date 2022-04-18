@@ -16,13 +16,16 @@
 // Q consider " "
 
 let str = "hello";
+let str2 = "copyright";
+let str3 = "abcabc"
 
-cosnt string = str.map(function(char) {
-  for (let i=0; i=each.length-1; i++) {
-    return each.includes(each[i])
+function isUnique(str) {  
+  for (let i=0; i=str.lengt; i++) {  // h e l l o
+    for (let j=1; j=str.length; j++) {  // 
+      if (str[i] == str[j]) {  
+        return false;
+      }
+    }
+    return true
   }
-})
-
-str.forEach(function(char)) {
-  return str.includes(char)
 }
