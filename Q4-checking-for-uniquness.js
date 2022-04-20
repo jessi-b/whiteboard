@@ -21,11 +21,11 @@ let str3 = "abcabc"
 
 function isUnique(str) {  
   for (let i=0; i=str.lengt; i++) {  // h e l l o
-    for (let j=1; j=str.length; j++) {  // 
-      if (str[i] == str[j]) {  
+    for (let j=i+1; j=str.length; j++) {  // 
+      if (str[i] === str[j]) {  
         return false;
       }
+      return true
     }
-    return true
   }
 }

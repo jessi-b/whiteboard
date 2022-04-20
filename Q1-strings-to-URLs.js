@@ -24,7 +24,7 @@ function toUrl(str) {
   return str.split(" ").join("%20")
 }
 
-// recursive solution
+// recursive solution - doesnt work
 toUrl = function(str) {
   // termination case
   if (str.length === 0) {  // !str == null ??
